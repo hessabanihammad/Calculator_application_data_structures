@@ -3,7 +3,7 @@ I developed a calculator application named mycalc to evaluate multiple arithmeti
 
 My application is invoked as follows:
 
- ./mycalc -i <inputfile> -o <outfile>
+ ./mycalc -i inputfile -o outfile
 
 where the flag -i indicates that the lexeme that follows is the file name containing the expressions to be evaluated and the -o flag indicates the name of the file where the outcome should be written into. If there is no -o flag provided, the outcome of the evaluation should appear on the tty (standard output).
 
